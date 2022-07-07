@@ -28,10 +28,12 @@ def cpu_bound(n):
 
 if __name__ == "__main__":
     start = time.time()
-    io_bound(10)
+    io_bound(5)
     io_bound(5)
     end = time.time()
     print("start time", start)
     print("end time", end) 
     print('Time taken in seconds -', end - start)
     print('date tiem', time.asctime(time.localtime(end-start)))
+    cpu_bound(COUNT)
+    cpu_bound(1000000)

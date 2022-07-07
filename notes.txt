@@ -31,6 +31,12 @@ Lock has basically two functions:
     1.Lock.acquire() - To acquire a lock
     2.Lock.release() - To release a lock ----refer thread_ex2.py 
 
+Parallelism:
+
+Through multithreading we achieve concurrency , but it represents the illusion of Parallelism.
+( We can best understand this with the figure I have attached)
+to achieve Parallelism we use multiprocessing.
+
 
 
 
